@@ -12,3 +12,6 @@
 
 #To understand the rules of this mini society visit
 #https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+How to use:
+  You only have one way of affecting the game, and it is by pressing the "space" key which will reset it 
