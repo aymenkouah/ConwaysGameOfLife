@@ -128,6 +128,10 @@ def draw_the_grid(window, grid):
             pygame.draw.rect(window, black, (i*width_of_a_square, k *
                                              width_of_a_square, width_of_a_square, width_of_a_square), 1)
 
+def reset():
+    new_grid = gen(row_number, col_number)
+    return new_grid
+            
 
 # Main code
 while running:
@@ -142,14 +146,8 @@ while running:
             quit()
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RIGHT and not pause:
-                hit = 1
-
-            if event.key == pygame.K_LEFT and not pause:
-                hit = 0
-
             if event.key == pygame.K_SPACE:
-                pause = not pause
+                grid = reset()
     print(grid.gen)
     ##############
     # fps.tick(120)
