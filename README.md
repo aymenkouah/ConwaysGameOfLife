@@ -8,7 +8,7 @@
 #Requires installaling "pygame"
 #https://www.pygame.org/news
 
-#This is not a game
+#This is not a game ( rather zero player game)
 
 #To understand the rules of this mini society visit
 #https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
